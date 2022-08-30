@@ -8,7 +8,7 @@ namespace ParamsDemo
 {
     internal class ClassMy
     {
-        public static void Main()
+        public  void Main()
         {
             CompanyManager m = new CompanyManager { Name = "Balaji", Surname = "R", Phone = "9848445445" };
             Company company = new Company

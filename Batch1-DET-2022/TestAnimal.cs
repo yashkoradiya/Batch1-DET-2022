@@ -8,7 +8,7 @@ namespace ParamsDemo
 {
     class TestAnimal
     {
-        public static void Main()
+        public  void Main()
         {
 
             List<Animal> list = new List<Animal>();

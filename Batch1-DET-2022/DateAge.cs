@@ -8,7 +8,7 @@
 
     }
 
-    public static void Main()
+    public void Main()
     {
 
 

@@ -17,7 +17,7 @@ namespace ParamsDemo
                 sum += i;
             return sum;
         }
-        public static void Main()
+        public void Main()
         {
             int x;
            

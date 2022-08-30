@@ -10,7 +10,7 @@ class MyClass
     /// <param name="mark">mark as the input</param>
     /// <returns></returns>
 
-    public static void Main()
+    public  void Main()
     {
         Manager m = new Manager(4671, "Karthika", new DateOnly(2005, 5, 10), "techtrng", 10);
         Console.WriteLine(m.Print());
