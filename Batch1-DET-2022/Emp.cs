@@ -4,21 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleAppDemo
+namespace MyClassLibrary
 {
     public class Emp
     {
-        //data declared inside class are known as "fields"
         int id;
         string name;
         string dept;
         double sal;
-        DateOnly doj;
-        private DateTime dateTime;
+        public DateTime doj;
 
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
-        public Emp(int id, string name, DateOnly doj)
+        public Emp(int id, string name, DateTime doj)
         {
             this.id = id; this.name = name; this.doj = doj;
         }
@@ -30,8 +28,6 @@ namespace ConsoleAppDemo
         {
             this.id = id; this.name = name;
         }
-
-        public Emp(int id, string name, DateTime dateTime) : this(id, name) => this.dateTime = dateTime;
 
         //function written inside a class is known as method
         public int GetYearsofExp()
@@ -46,4 +42,5 @@ namespace ConsoleAppDemo
 
 
     }
+
 }
